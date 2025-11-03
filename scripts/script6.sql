@@ -38,4 +38,7 @@ values(17549,'10055','30000','C','16/05/2023','08:30')
 insert into transacciones(codigo,numero_cuenta,monto,tipo,fecha,hora)
 values(17550,'10080','2565','D','16/05/2023','14:12')
 
+insert into transacciones(codigo,numero_cuenta,monto,tipo,fecha,hora)
+values(17551,'10081','250','D','16/09/2023','14:12')
+
 select * from transacciones

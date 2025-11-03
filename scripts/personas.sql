@@ -23,3 +23,12 @@ insert into personas(cedula, nombre, apellido,numero_hijos,estatura,fecha_nacimi
 values('1714616126','Estefania','Rosales',1,1.58,'22/02/2000','22:54',200.34)
 
 select * from personas
+
+update personas set estatura = 1.7
+where cedula = '1714616123'
+
+update personas set numero_hijos=0
+where numero_hijos is null
+
+update personas set cantidad_ahorrada=0.0
+where cantidad_ahorrada is null
