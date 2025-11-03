@@ -30,4 +30,7 @@ values(10007,'God of War',5);
 insert into videojuegos(codigo,nombre,valoracion)
 values(10008,'Stardew Valley',4);
 
+insert into videojuegos(codigo,nombre,valoracion)
+values(10009,'Free Fire',10);
+
 select * from videojuegos

@@ -36,4 +36,7 @@ values('00009','17108','15/11/2020',4656.21)
 insert into cuentas(numero_cuenta,cedula_propietario,fecha_creacion,saldo)
 values('00010','17109','11/10/2025',478.55)
 
+insert into cuentas(numero_cuenta,cedula_propietario,fecha_creacion,saldo)
+values('12458','17171','15/10/2025',120.24)
+
 select * from cuentas
