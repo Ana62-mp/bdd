@@ -39,4 +39,7 @@ values(10,'1748569874','20/10/2024','09:10')
 insert into registros_entrada(codigo_registro,cedula_empleado,fecha,hora)
 values(11,'1748547982','12/08/2024','08:00')
 
+insert into registros_entrada(codigo_registro,cedula_empleado,fecha,hora)
+values(12,'1748547987','12/06/2024','08:00')
+
 select * from registros_entrada
